@@ -168,6 +168,16 @@ h3 {
 
 /* Media Queries */
 @media screen and (max-width: 770px) {
+  .container-fluid {
+    padding: 7% 10%;
+  }
+
+  /* Title */
+
+  #title .container-fluid {
+    padding: 3% 10% 7%;
+  }
+
   .title-img {
     transform: rotate(0);
     position: static;
@@ -175,5 +185,37 @@ h3 {
 
   #title {
     text-align: center;
+  }
+
+  .big-heading {
+    font-size: 2rem;
+  }
+
+  /* Testimonials */
+
+  #testimonials h2 {
+    font-size: 1.9rem;
+  }
+
+  .testimonials-img {
+    width: 25%;
+  }
+
+  /* Press */
+
+  .press-logo {
+    width: 20%;
+  }
+
+  /* Price */
+
+  #price {
+    padding: 70px 70px;
+  }
+
+  /* CTA */
+
+  #cta h3 {
+    font-size: 2.5rem;
   }
 }
